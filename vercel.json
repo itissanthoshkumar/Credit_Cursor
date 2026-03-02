@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "coming-soon/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/coming-soon/index.html" }
+  ]
+}
