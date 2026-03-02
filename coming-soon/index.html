@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <div class="card">
+        <h1 class="logo">We're launching soon</h1>
+        <p class="lead">We're working on something great. Stay tuned — it'll be here shortly.</p>
+
+        <div id="countdown" class="countdown" aria-live="polite">
+          <div class="time"><span id="days">00</span><small>Days</small></div>
+          <div class="sep">:</div>
+          <div class="time"><span id="hours">00</span><small>Hours</small></div>
+          <div class="sep">:</div>
+          <div class="time"><span id="minutes">00</span><small>Minutes</small></div>
+          <div class="sep">:</div>
+          <div class="time"><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+
+        <form id="notify-form" class="subscribe">
+          <input id="email" type="email" placeholder="Enter your email" required />
+          <button type="submit">Notify Me</button>
+        </form>
+
+        <p class="muted">Or follow us on <a href="#">Twitter</a> for updates.</p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
